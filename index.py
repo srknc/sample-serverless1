@@ -2,6 +2,6 @@
 import docutils
 
 def main(event, context):
+   data = event['data']
    # text = event['data']['text']
-   text = "hello"
-   return text
+   return data
