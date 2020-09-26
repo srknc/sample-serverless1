@@ -1,6 +1,5 @@
 # not that I need them, just as an example
-import requests
-import json
+import docutils
 
 def main(event, context):
    text = event['data']['text']
